@@ -43,17 +43,6 @@ This model has potential applications in healthcare, where it could assist in th
 - Scikit-learn
 - Google Colab (for cloud-based execution)
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/brain-tumor-mri-classification.git
-   ```
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Upload the dataset to the Google Colab environment.
-
 ## Model Overview
 This project employs a Convolutional Neural Network (CNN) built on top of TensorFlow. Due to the small dataset size, Transfer Learning is employed with the EfficientNetB0 model, which is pre-trained on the ImageNet dataset. The model is trained to classify MRI scans into four categories, and its performance is optimized using techniques like early stopping and learning rate reduction.
 
